@@ -5,22 +5,23 @@
     //Required. Inputs the module expects.
     "inputs": [
         //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "cardId_shortlink",
+            "title":"Card ID or Shorlink"
+        },
+        {
+            "id": "idLabels.value",
+            "title":"Labels"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
       //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "success",
+            "title":"Success"
         }
-      */
     ],
+    "icon": "trello",
     "title": "Trello Add Label to Card" /* Required.A display name for the module */
 }
