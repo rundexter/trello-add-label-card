@@ -22,6 +22,9 @@
             "title":"Success"
         }
     ],
+    "providers": [{
+        "name": "trello"
+    }],
     "icon": "trello",
     "title": "Trello Add Label to Card" /* Required.A display name for the module */
 }
