@@ -23,7 +23,10 @@
         }
     ],
     "providers": [{
-        "name": "trello"
+        "name": "trello",
+        "scopes": [
+            "Write"
+        ]
     }],
     "icon": "trello",
     "title": "Trello Add Label to Card" /* Required.A display name for the module */
